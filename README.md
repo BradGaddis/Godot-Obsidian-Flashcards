@@ -1,4 +1,4 @@
-# Godot-Obsidian-Flashcards
+![image](https://github.com/BradGaddis/Godot-Obsidian-Flashcards/assets/66101412/a9ead9b9-9f42-47a4-9884-d2c1edc8fd2a)# Godot-Obsidian-Flashcards
 A simple Python script to convert GODOT .html to useable .md files for the Spaced Repition plugin for Obsidian
 
 ---
@@ -10,5 +10,14 @@ Yes, it could be better, but the idea is just to have a way to study the documen
 ## How to use:
 
 - Dowload [the docs](https://nightly.link/godotengine/godot-docs/workflows/build_offline_docs/master/godot-docs-html-master.zip) for Godot
-- Unzip them
-- Add the source and destination paths to the method at the bottom of the script.
+- Unzip them, and grab the file from the classes directory.
+- Add the source (classes dir) and destination (where you want to save the files in your Obsidian Vault) paths to the method at the bottom of the script.
+
+## What it does:
+
+This script follows the rules in spaced repition so that you can challenge yourself to memorize what inherits what, and each property of a class, as well what inherits what.
+
+![image](https://github.com/BradGaddis/Godot-Obsidian-Flashcards/assets/66101412/0c1e2134-bea1-4896-bfd1-bffb376ebdc8)
+
+If you want to use cloze deletion, just be sure to toggle that on for bold markup in your settings. This script assumes that if it is bolded, it must be important.
+
